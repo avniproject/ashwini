@@ -1,0 +1,15 @@
+{
+  "organisationName": "Ashwini",
+  "encounterTypes": [
+    "Outpatient",
+    "Delivery",
+    "Abortion",
+    "Child Default",
+    "ANC",
+    "PNC"
+  ],
+  "programs": [
+    "Mother",
+    "Child"
+  ]
+}
