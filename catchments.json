@@ -1,8 +1,10 @@
 {
-  "Gudalur": {
+  "organisation": "Ashwini",
+  "catchments":[
+   {
     "uuid": "693eebd3-8123-48a1-956f-80d88905bd18",
     "name": "Gudalur",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "48be48d4-bf9f-4f2b-b576-dbdb1122638d",
@@ -240,10 +242,10 @@
       }
     ]
   },
-  "Devala": {
+    {
     "uuid": "437afcd5-ad40-4883-8f40-e64634385c97",
     "name": "Devala",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "4c3e8ae0-74b6-415a-bab1-6ba371f4d8cf",
@@ -379,10 +381,10 @@
       }
     ]
   },
-  "Pattavayal": {
+   {
     "uuid": "a603e38d-9945-4f9d-a40e-8692bb2b1449",
     "name": "Pattavayal",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "8af088dc-7a6b-46e5-8287-b566fc88da00",
@@ -608,10 +610,10 @@
       }
     ]
   },
-  "Ayyankolly": {
+   {
     "uuid": "41ce7d81-7ac5-471f-8a3b-6f62e4cb2274",
     "name": "Ayyankolly",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "df1d3001-07fc-4797-b6cc-e3365a926039",
@@ -1035,10 +1037,10 @@
       }
     ]
   },
-  "Erumadu": {
+   {
     "uuid": "7c999567-3e1d-4ba0-b6a0-19637346aaea",
     "name": "Erumadu",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "58e3a49b-659e-46b7-904e-dd0957ae700a",
@@ -1396,10 +1398,10 @@
       }
     ]
   },
-  "Ponnani": {
+   {
     "uuid": "1118c202-a5b2-4ffa-8d9f-e12b826ef4a8",
     "name": "Ponnani",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "627526a1-5d12-4472-a542-355b86000914",
@@ -1553,10 +1555,10 @@
       }
     ]
   },
-  "Devarshola": {
+   {
     "uuid": "a6643952-60f3-4cbe-9da7-e602a66a0e7e",
     "name": "Devarshola",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "6c309c96-1978-41a4-b83c-505082962458",
@@ -1788,10 +1790,10 @@
       }
     ]
   },
-  "Srimadurai": {
+   {
     "uuid": "5f934c5d-f20e-49b6-953d-67cbe2cefbe9",
     "name": "Srimadurai",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "adbc077c-91dd-4d5a-b34e-763b421a4a93",
@@ -2047,10 +2049,10 @@
       }
     ]
   },
-  "Masinagudi": {
+   {
     "uuid": "7d9db565-2098-4aab-b3cc-e1bd63949c5a",
     "name": "Masinagudi",
-    "type": "Area",
+    "type": "Village",
     "addressLevels": [
       {
         "uuid": "8f3a196b-744c-4041-812f-af1f41f6ebfd",
@@ -2150,4 +2152,5 @@
       }
     ]
   }
+  ]
 }

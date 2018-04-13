@@ -11,16 +11,123 @@
       "display": "Details",
       "formElements": [
         {
-          "name": "Mother's Name",
-          "uuid": "eb0816e1-607d-427a-b9fd-08d574ad9850",
+          "name": "Father/Husband",
+          "uuid": "9efeb12f-53c5-4cff-b48d-d4fbfc50ce37",
           "keyValues": [],
           "concept": {
-            "name": "Mother's Name",
-            "uuid": "9b3d63f3-ad28-43d7-a76e-0d6b05aa35fb",
+            "name": "Father/Husband",
+            "uuid": "4edb709d-a0ad-44fd-9132-2884054cd114",
             "dataType": "Text"
           },
           "displayOrder": 1,
           "mandatory": true
+        },
+        {
+          "name": "Contact Number",
+          "uuid": "f00eaa8f-0ca3-4fbf-bb5a-eb068381115d",
+          "keyValues": [],
+          "concept": {
+            "name": "Contact Number",
+            "uuid": "a441475f-1010-4dc3-b030-b35e119d6967",
+            "dataType": "Text"
+          },
+          "displayOrder": 2
+        },
+        {
+          "name": "Address",
+          "uuid": "9b01aa36-a5c1-44d2-ad8a-295a6833ac2e",
+          "keyValues": [],
+          "concept": {
+            "name": "Address",
+            "uuid": "b50ecce8-63ca-4909-9eb9-384ecbd2c455",
+            "dataType": "Text"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Blood Group",
+          "uuid": "fc6d8edb-f361-41b4-9712-e286ff58d3e7",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Blood Group",
+            "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7"
+          },
+          "displayOrder": 4
+        },
+        {
+          "name": "Tribe",
+          "uuid": "421e8b9c-90e1-42d1-b265-3b2035efe1bf",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Tribe",
+            "uuid": "14c794f1-2db6-4646-94b9-ac933b7e71bd",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "name": "Paniya",
+                "uuid": "7d3039fa-4297-4161-971b-1dd1ef0150ef"
+              },
+              {
+                "name": "Bettakurumba",
+                "uuid": "a6b9c130-6ad1-4b97-9be3-3e610c66e4af"
+              },
+              {
+                "name": "Kattunaikar",
+                "uuid": "c15f9739-3d26-4583-991f-894975ac7cbe"
+              },
+              {
+                "name": "Irula",
+                "uuid": "232d39aa-33c5-45f9-9f4c-d55b9d8fb7d5"
+              },
+              {
+                "name": "Mullakurumba",
+                "uuid": "cd896b0f-8880-40e2-8550-11c5fd554bf7"
+              }
+            ]
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Sangam Number",
+          "uuid": "05e7f664-1035-4099-84a0-0eb6220adae0",
+          "keyValues": [],
+          "concept": {
+            "name": "Sangam Number",
+            "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
+            "dataType": "Numeric"
+          },
+          "displayOrder": 6,
+          "validFormat": {
+            "regex": "^[0-9]{8}$",
+            "descriptionKey": "Required8Digits"
+          },
+          "mandatory": true
+        },
+        {
+          "name": "Birth Registered",
+          "uuid": "e4d98e67-a604-43e6-95c1-da5ceb9d31d3",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Birth Registered",
+            "uuid": "a340839c-204e-4443-b6c4-43b00766f53f",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "name": "Yes",
+                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+              },
+              {
+                "name": "No",
+                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+              }
+            ]
+          },
+          "displayOrder": 7
         }
       ]
     }

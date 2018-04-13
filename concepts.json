@@ -1,3 +1,30 @@
 [
-
+  {
+    "name": "Paniya",
+    "uuid": "7d3039fa-4297-4161-971b-1dd1ef0150ef"
+  },
+  {
+    "name": "Bettakurumba",
+    "uuid": "a6b9c130-6ad1-4b97-9be3-3e610c66e4af"
+  },
+  {
+    "name": "Kattunaikar",
+    "uuid": "c15f9739-3d26-4583-991f-894975ac7cbe"
+  },
+  {
+    "name": "Irula",
+    "uuid": "232d39aa-33c5-45f9-9f4c-d55b9d8fb7d5"
+  },
+  {
+    "name": "Mullakurumba",
+    "uuid": "cd896b0f-8880-40e2-8550-11c5fd554bf7"
+  },
+  {
+    "name": "Yes",
+    "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+  },
+  {
+    "name": "No",
+    "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+  }
 ]
