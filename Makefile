@@ -27,9 +27,10 @@ create_org:
 deploy_refdata: ## Creates reference data by POSTing it to the server
 	curl -X POST $(server):$(port)/catchments -d @catchments.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: $(org_name)"  -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/concepts -d @concepts.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/concepts -d @concepts.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/forms -d @registrationForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
 	curl -X POST $(server):$(port)/operationalModules -d @operationalModules.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
+	curl -X DELETE $(server):$(port)/forms -d @mother/enrolmentDeletions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
+	curl -X PATCH $(server):$(port)/forms -d @mother/enrolmentAdditions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
 ## </refdata>
 
 deploy: deploy_refdata

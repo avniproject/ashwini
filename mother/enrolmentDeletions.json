@@ -1,0 +1,37 @@
+{
+  "uuid": "026e2f5c-8670-4e4b-9a54-cb03bbf3093d",
+  "userUUID": "f5117600-c1b8-4690-af45-6282ff9b6bb7",
+  "formElementGroups": [
+    {
+      "uuid": "2dff8c09-bed3-4848-943f-b2240b70d7ed",
+      "formElements": [
+        {
+          "uuid": "cadad826-0b4c-4474-b256-697b49159111",
+          "comment": "ANC registration no"
+        },
+        {
+          "uuid": "1e23c808-5932-484b-b913-1d78f81cc11f",
+          "comment": "Urine pregnancy test" 
+        }
+      ]
+    },
+    {
+      "uuid": "50a2d045-88fe-44e3-86e0-0dba16f53818",
+      "formElements": [
+        {
+          "uuid": "4ae32d41-7c2e-4d7d-8ac6-566c9331f3a1",
+          "comment": "Remove default Obstetrics history (and customize in enrolmentAdditions)"
+        }
+      ]
+    },
+    {
+      "uuid": "a9edaaef-c93b-4039-8fab-ef8b836cf19a",
+      "formElements": [
+        {
+          "uuid": "3f4c9772-02d8-4632-9ba9-0c7de065e340",
+          "comment": "Malaria in the past 6 months" 
+        }
+      ]
+    }
+  ]
+}

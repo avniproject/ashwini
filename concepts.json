@@ -20,11 +20,15 @@
     "uuid": "cd896b0f-8880-40e2-8550-11c5fd554bf7"
   },
   {
-    "name": "Yes",
-    "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+    "name": "HV",
+    "uuid": "52c2e52e-ff64-4aa0-893d-41bffcde7dee"
   },
   {
-    "name": "No",
-    "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+    "name": "Self",
+    "uuid": "74466f64-3f7c-4046-aaae-57803cee46b1"
+  },
+  {
+    "name": "Villagers",
+    "uuid": "b16b0f46-1e44-4733-8bb4-789878fcd45d"
   }
 ]

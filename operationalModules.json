@@ -2,11 +2,12 @@
   "organisationName": "Ashwini",
   "encounterTypes": [
     "Outpatient",
+    "ANC",
+    "PNC",
     "Delivery",
     "Abortion",
-    "Child Default",
-    "ANC",
-    "PNC"
+    "Child Delivery",
+    "Child Default"
   ],
   "programs": [
     "Mother",
