@@ -27,7 +27,6 @@
           "uuid": "f00eaa8f-0ca3-4fbf-bb5a-eb068381115d",
           "keyValues": [],
           "concept": {
-            "name": "Contact Number",
             "uuid": "82fa0dbb-92f9-4ec2-9263-49054e64d909"
           },
           "displayOrder": 2
@@ -112,7 +111,7 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Birth Registered",
+            "name": "Birth registered",
             "uuid": "a340839c-204e-4443-b6c4-43b00766f53f",
             "dataType": "Coded",
             "answers": [
