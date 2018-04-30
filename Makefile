@@ -20,19 +20,25 @@ server:= $(if $(server),$(server),http://localhost)
 org_name:=Ashwini
 su:=postgres
 
+_curl = \
+	curl -X $(1) $(server):$(port)/$(2) -d $(3)  \
+		-H "Content-Type: application/json"  \
+		-H "ORGANISATION-NAME: $(org_name)"  \
+		-H "AUTH-TOKEN: $(token)" \
+
 create_org:
 	psql -h localhost -U $(su) openchs < create_organisation.sql
 
 ## <refdata>
 deploy_refdata: ## Creates reference data by POSTing it to the server
-	curl -X POST $(server):$(port)/catchments -d @catchments.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: $(org_name)"  -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/concepts -d @concepts.json -H "Content-Type: application/json" 	-H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/forms -d @registrationForm.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X POST $(server):$(port)/operationalModules -d @operationalModules.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X DELETE $(server):$(port)/forms -d @mother/enrolmentDeletions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X DELETE $(server):$(port)/forms -d @mother/deliveryDeletions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X PATCH $(server):$(port)/forms -d @mother/enrolmentAdditions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
-	curl -X PATCH $(server):$(port)/forms -d @mother/deliveryAdditions.json -H "Content-Type: application/json" -H "ORGANISATION-NAME: $(org_name)" -H "AUTH-TOKEN: $(token)"
+
+	$(call _curl,POST,catchments,@catchments.json)
+	$(call _curl,POST,concepts,@concepts.json)
+	$(call _curl,POST,forms,@registrationForm.json)
+	$(call _curl,POST,forms,@mother/deliveryForm.json)
+	$(call _curl,POST,forms,@mother/enrolmentForm.json)
+	$(call _curl,POST,operationalModules,@operationalModules.json)
+
 ## </refdata>
 
 deploy: deploy_refdata

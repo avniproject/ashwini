@@ -80,37 +80,6 @@
     ]
   },
   {
-    "name": "Delivered by",
-    "uuid": "58b6367a-825f-43e2-b6b7-b35a5cbc3a09",
-    "dataType": "Coded",
-    "answers": [
-      {
-        "comment": "original",
-        "uuid": "c5a95b60-61b9-4861-a9a2-9b783e768b27"
-      },
-      {
-        "comment": "Nurse",
-        "uuid": "f2060c53-4cb4-4b35-9bb6-6f717a8a3f56"
-      },
-      {
-        "comment": "Relative",
-        "uuid": "5dcdbebc-913e-46a5-a254-dd38d2956c80"
-      },
-      {
-        "comment": "original",
-        "uuid": "f6947afd-9592-4ac8-808a-4cd5bdc1443e"
-      },
-      {
-        "comment": "original",
-        "uuid": "136f5c20-c8be-4028-89cb-8a22571526c2"
-      },
-      {
-        "comment": "original",
-        "uuid": "d3f764e5-938a-42dd-bdef-02614d424f8d"
-      }
-    ]
-  },
-  {
     "name": "Delivery Outcome",
     "uuid": "36b7b1a8-d191-4bbe-ad3c-0e25a48334e0",
     "dataType": "Coded",
