@@ -11,8 +11,40 @@
       "display": "Details",
       "formElements": [
         {
-          "name": "Father/Husband",
-          "uuid": "9efeb12f-53c5-4cff-b48d-d4fbfc50ce37",
+          "name": "Sangam Number",
+          "uuid": "374be040-bb0d-4305-957a-6bca0c7774ea",
+          "keyValues": [],
+          "concept": {
+            "name": "Sangam Number",
+            "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
+            "dataType": "Numeric"
+          },
+          "displayOrder": 1,
+          "validFormat": {
+            "regex": "^[0-9]{8}$",
+            "descriptionKey": "Required8Digits"
+          }
+        },
+        {
+          "name": "Contact Number",
+          "uuid": "5eb27496-e35d-44cc-be83-d644b6daaf4f",
+          "keyValues": [],
+          "concept": {
+            "uuid": "82fa0dbb-92f9-4ec2-9263-49054e64d909"
+          },
+          "displayOrder": 2
+        }
+      ]
+    },
+    {
+      "name": "Family Details",
+      "uuid": "1bfba8ea-b3c0-4f9c-93a6-5506631fbaa4",
+      "displayOrder": 2,
+      "display": "Family Details",
+      "formElements": [
+        {
+          "name": "Husband/Father name",
+          "uuid": "3f9b4690-056e-467a-a811-17c61277b5c6",
           "keyValues": [],
           "concept": {
             "name": "Father/Husband",
@@ -21,111 +53,76 @@
           },
           "displayOrder": 1,
           "mandatory": true
-        },
+        }
+      ]
+    },
+    {
+      "name": "Socio Economic Details",
+      "uuid": "1329ba69-07f6-4c3b-8e9b-9680b3d3a415",
+      "displayOrder": 3,
+      "display": "Socio Economic Details",
+      "formElements": [
         {
-          "name": "Contact Number",
-          "uuid": "f00eaa8f-0ca3-4fbf-bb5a-eb068381115d",
+          "name": "Tribe",
+          "uuid": "128f7694-0ac5-4685-9e4c-d15c9ca4d688",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
-            "uuid": "82fa0dbb-92f9-4ec2-9263-49054e64d909"
+            "name": "Tribe",
+            "uuid": "14c794f1-2db6-4646-94b9-ac933b7e71bd"
           },
-          "displayOrder": 2
-        },
-        {
-          "name": "Address",
-          "uuid": "9b01aa36-a5c1-44d2-ad8a-295a6833ac2e",
-          "keyValues": [],
-          "concept": {
-            "name": "Address",
-            "uuid": "b50ecce8-63ca-4909-9eb9-384ecbd2c455",
-            "dataType": "Text"
-          },
-          "displayOrder": 3,
+          "displayOrder": 1,
           "mandatory": true
-        },
+        }
+      ]
+    },
+    {
+      "name": "Medical Details",
+      "uuid": "be4a4e55-99b6-4977-8881-e8970bd86a5c",
+      "displayOrder": 4,
+      "display": "Medical Details",
+      "formElements": [
         {
           "name": "Blood Group",
-          "uuid": "fc6d8edb-f361-41b4-9712-e286ff58d3e7",
+          "uuid": "6a89e62e-59f4-4155-852f-35aa5dc9d4a1",
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
             "name": "Blood Group",
             "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7"
           },
-          "displayOrder": 4
+          "displayOrder": 1
         },
         {
-          "name": "Tribe",
-          "uuid": "421e8b9c-90e1-42d1-b265-3b2035efe1bf",
+          "name": "Medical History",
+          "uuid": "ea62f6d5-6780-4485-bde3-ac02e3ffd30d",
+          "keyValues": [],
+          "type": "MultiSelect",
+          "concept": {
+            "name": "Medical Details Past History",
+            "uuid": "82fc45fe-457d-42f6-8f69-ed518c20f158"
+          },
+          "displayOrder": 2
+        }
+      ]
+    },
+    {
+      "name": "Personal Habits",
+      "uuid": "c74c6e80-43be-44d6-a6d3-860b4135b349",
+      "displayOrder": 5,
+      "display": "Personal Habits",
+      "formElements": [
+        {
+          "name": "Addiction Details",
+          "uuid": "c953b3c2-690b-4a39-ab92-15537fbff838",
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Tribe",
-            "uuid": "14c794f1-2db6-4646-94b9-ac933b7e71bd",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "name": "Paniya",
-                "uuid": "7d3039fa-4297-4161-971b-1dd1ef0150ef"
-              },
-              {
-                "name": "Bettakurumba",
-                "uuid": "a6b9c130-6ad1-4b97-9be3-3e610c66e4af"
-              },
-              {
-                "name": "Kattunaikar",
-                "uuid": "c15f9739-3d26-4583-991f-894975ac7cbe"
-              },
-              {
-                "name": "Irula",
-                "uuid": "232d39aa-33c5-45f9-9f4c-d55b9d8fb7d5"
-              },
-              {
-                "name": "Mullakurumba",
-                "uuid": "cd896b0f-8880-40e2-8550-11c5fd554bf7"
-              }
-            ]
+            "name": "Addiction Details",
+            "uuid": "2ebca9be-3be3-4d11-ada0-187563ff04f8"
           },
-          "displayOrder": 5,
+          "displayOrder": 1,
           "mandatory": true
-        },
-        {
-          "name": "Sangam Number",
-          "uuid": "05e7f664-1035-4099-84a0-0eb6220adae0",
-          "keyValues": [],
-          "concept": {
-            "name": "Sangam Number",
-            "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
-            "dataType": "Numeric"
-          },
-          "displayOrder": 6,
-          "validFormat": {
-            "regex": "^[0-9]{8}$",
-            "descriptionKey": "Required8Digits"
-          },
-          "mandatory": true
-        },
-        {
-          "name": "Birth Registered",
-          "uuid": "e4d98e67-a604-43e6-95c1-da5ceb9d31d3",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Birth registered",
-            "uuid": "a340839c-204e-4443-b6c4-43b00766f53f",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "name": "Yes",
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-              },
-              {
-                "name": "No",
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-              }
-            ]
-          },
-          "displayOrder": 7
         }
       ]
     }
