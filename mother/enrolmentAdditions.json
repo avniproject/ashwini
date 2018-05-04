@@ -1,0 +1,70 @@
+{
+  "uuid": "026e2f5c-8670-4e4b-9a54-cb03bbf3093d",
+  "userUUID": "f5117600-c1b8-4690-af45-6282ff9b6bb7",
+  "formElementGroups": [
+    {
+      "uuid": "2dff8c09-bed3-4848-943f-b2240b70d7ed",
+      "formElements": [
+        {
+          "name": "Birth registered",
+          "uuid": "591b5ed9-d00e-48c1-8b6b-54d4520a5921",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "a340839c-204e-4443-b6c4-43b00766f53f"
+          },
+          "displayOrder": 5.1,
+          "mandatory": true
+        },
+        {
+          "name": "Informed by",
+          "uuid": "ccb16544-6d0d-4059-b3e4-9e90ae225bf2",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Informed by",
+            "uuid": "1136ddfe-6400-467d-b4e6-dc17eec054e8",
+            "dataType": "Coded",
+            "answers": [
+              {
+                "uuid": "52c2e52e-ff64-4aa0-893d-41bffcde7dee"
+              },
+              {
+                "uuid": "74466f64-3f7c-4046-aaae-57803cee46b1"
+              },
+              {
+                "uuid": "b16b0f46-1e44-4733-8bb4-789878fcd45d"
+              }
+            ]
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "50a2d045-88fe-44e3-86e0-0dba16f53818",
+      "formElements": [
+        {
+          "name": "Obstetrics history",
+          "uuid": "800fddad-2780-4ea1-9eec-4af35f3f1c54",
+          "keyValues": [
+            {
+              "key": "ExcludedAnswers",
+              "value": [
+                "Threatened abortion",
+                "Intrapartum Death"
+              ]
+            }
+          ],
+          "type": "MultiSelect",
+          "concept": {
+            "uuid": "8a4ab436-6767-45d5-95d7-075d9459609e"
+          },
+          "displayOrder": 1.1,
+          "mandatory": true
+        }
+      ]
+    }
+  ]
+}

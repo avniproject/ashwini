@@ -1,0 +1,65 @@
+{
+  "uuid": "901e2f48-2fb8-402b-9073-ee2fac33fce4",
+  "formElementGroups": [
+    {
+      "uuid": "187479ba-7c41-4cd4-beac-9d0cf7735852",
+      "formElements": [
+        {
+          "uuid": "ee2966d4-035c-4282-9314-a4453f260f28",
+          "comment": "Did the baby cry soon after birth?"
+        },
+        {
+          "uuid": "c11bc3cd-7b58-49ba-b085-040378958a57",
+          "comment": "Did breast feeding start within 1 hour of birth?"
+        },
+        {
+          "uuid": "8977ed9d-ef91-4c97-8cc1-2515c827eff1",
+          "comment": "When did breast feeding start?"
+        }
+      ]
+    },
+    {
+      "uuid": "330730f4-71c8-4e31-aa30-5cbf4d07d1e2",
+      "formElements": [
+        {
+          "uuid": "6985bbf7-0f97-40a8-8c06-875e31631bc6",
+          "comment": "Colour of child"
+        },
+        {
+          "uuid": "c29973e2-baea-429d-9f4c-42f33fa8edd4",
+          "comment": "Reflex"
+        },
+        {
+          "uuid": "4039039a-c395-4fd1-b7b2-379910df2494",
+          "comment": "Muscle tone"
+        }
+      ]
+    },
+    {
+      "uuid": "5d1cff96-3a19-430d-92bf-0244a2562154",
+      "formElements": [
+        {
+          "uuid": "e9097f25-cb68-44d5-8709-f7ccfa3d36d6",
+          "comment": "Pulse"
+        },
+        {
+          "uuid": "c31449fa-9102-4a46-8264-022d529d4f38",
+          "comment": "Temperature"
+        },
+        {
+          "uuid": "ceed29aa-0145-4c77-a032-2c1546682612",
+          "comment": "Respiratory Rate"
+        }
+      ]
+    },
+    {
+      "uuid": "92802ca9-1494-4c7a-a629-96362d0f4756",
+      "formElements": [
+        {
+          "uuid": "1f0bbcce-801e-4736-b5ab-c8afee6e8521",
+          "comment": "Jaundice (Icterus)"
+        }
+      ]
+    }
+  ]
+}
