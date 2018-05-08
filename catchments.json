@@ -607,6 +607,12 @@
         "level": 1,
         "name": "POLIKUNNY",
         "type": "Village"
+      },
+      {
+        "uuid": "e986bd67-0203-41c8-8ce9-db9ad00b2520",
+        "level": 1,
+        "name": "Maanivayal KN",
+        "type": "Village"
       }
     ]
   },
@@ -1034,6 +1040,36 @@
         "level": 1,
         "name": "KARAKOLLI",
         "type": "Village"
+      },
+      {
+        "name": "Kallukani KN",
+        "uuid": "b924ac0d-7664-4cd7-8f87-c06a03fa3488",
+        "level": 1,
+        "type": "Village"
+      },
+      {
+        "name": "padikamvayal",
+        "uuid": "6b08f750-a7cb-44c7-8b52-80dadebc157e",
+        "level": 1,
+        "type": "Village"
+      },
+      {
+        "name": "PIDARI",
+        "uuid": "01a320e7-7263-4115-bd00-5effe2c9716b",
+        "level": 1,
+        "type": "Village"
+      },
+      {
+        "name": "PUTHANVEEDU",
+        "uuid": "ac68f7fd-6de9-4d6b-9b36-96986e49f710",
+        "level": 1,
+        "type": "Village"
+      },
+      {
+        "name": "Thinduputtu",
+        "uuid": "39596090-8227-4786-b62f-93611989ca85",
+        "level": 1,
+        "type": "Village"
       }
     ]
   },
@@ -1395,6 +1431,24 @@
         "level": 1,
         "name": "THAVANA",
         "type": "Village"
+      },
+      {
+        "uuid": "16d09296-4311-49ab-be47-93b32e98219d",
+        "level": 1,
+        "name": "karumbakolly",
+        "type": "Village"
+      },
+      {
+        "uuid": "c1419ac7-afb1-4591-969d-ab93a0e08840",
+        "level": 1,
+        "name": "kannamvayal",
+        "type": "Village"
+      },
+      {
+        "uuid": "f4b67bd4-0ab9-4d5b-9631-94f4a9e9515d",
+        "level": 1,
+        "name": "Thiruvambadi",
+        "type": "Village"
       }
     ]
   },
@@ -1551,6 +1605,12 @@
         "uuid": "6b012774-7bcb-48c2-87a9-d91510c2b590",
         "level": 1,
         "name": "AMMANKAVU",
+        "type": "Village"
+      },
+      {
+        "uuid": "6325a6d9-e550-4d9a-b5cb-582432134e6c",
+        "level": 1,
+        "name": "mundakolli",
         "type": "Village"
       }
     ]
