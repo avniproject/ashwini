@@ -143,5 +143,82 @@
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
+  },
+  {
+    "name": "Informed by",
+    "uuid": "1136ddfe-6400-467d-b4e6-dc17eec054e8",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "52c2e52e-ff64-4aa0-893d-41bffcde7dee"
+      },
+      {
+        "uuid": "74466f64-3f7c-4046-aaae-57803cee46b1"
+      },
+      {
+        "uuid": "b16b0f46-1e44-4733-8bb4-789878fcd45d"
+      }
+    ]
+  },
+  {
+    "name": "Urine micro",
+    "uuid": "8fbf83e6-6a52-4630-82c5-c19065f4305e",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "57b51d52-981f-4af2-b133-aeffa6d00757",
+        "comment": "Present"
+      },
+      {
+        "uuid": "10885638-561a-42b6-8b24-8daa01864c89",
+        "comment": "Absent"
+      }
+    ]
+  },
+  {
+    "name": "USG dating scan done?",
+    "uuid": "eba78e11-f6f8-45cc-acc1-5883a28edaba",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "2b323cf0-b86a-451b-8266-fa4b5343d528",
+    "name": "Date of USG dating scan",
+    "dataType": "Date"
+  },
+  {
+    "name": "USG anomaly scan done?",
+    "uuid": "0d9a6654-68c1-4398-a49e-92340e4f9ff5",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "b20dd110-f425-46f8-b281-24170ba222d3",
+    "name": "Date of USG anomaly scan",
+    "dataType": "Date"
+  },
+  {
+    "name": "Sangam Number",
+    "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Father/Husband",
+    "uuid": "4edb709d-a0ad-44fd-9132-2884054cd114",
+    "dataType": "Text"
   }
 ]

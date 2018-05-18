@@ -22,20 +22,8 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Informed by",
             "uuid": "1136ddfe-6400-467d-b4e6-dc17eec054e8",
-            "dataType": "Coded",
-            "answers": [
-              {
-                "uuid": "52c2e52e-ff64-4aa0-893d-41bffcde7dee"
-              },
-              {
-                "uuid": "74466f64-3f7c-4046-aaae-57803cee46b1"
-              },
-              {
-                "uuid": "b16b0f46-1e44-4733-8bb4-789878fcd45d"
-              }
-            ]
+            "name": "Informed by"
           },
           "displayOrder": 6,
           "mandatory": true

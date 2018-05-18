@@ -15,9 +15,8 @@
           "uuid": "374be040-bb0d-4305-957a-6bca0c7774ea",
           "keyValues": [],
           "concept": {
-            "name": "Sangam Number",
             "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
-            "dataType": "Numeric"
+            "name": "Sangam Number"
           },
           "displayOrder": 1,
           "validFormat": {
@@ -47,9 +46,8 @@
           "uuid": "3f9b4690-056e-467a-a811-17c61277b5c6",
           "keyValues": [],
           "concept": {
-            "name": "Father/Husband",
             "uuid": "4edb709d-a0ad-44fd-9132-2884054cd114",
-            "dataType": "Text"
+            "name": "Father/Husband"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -68,8 +66,8 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Tribe",
-            "uuid": "14c794f1-2db6-4646-94b9-ac933b7e71bd"
+            "uuid": "14c794f1-2db6-4646-94b9-ac933b7e71bd",
+            "name": "Tribe"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -88,8 +86,8 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Blood Group",
-            "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7"
+            "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7",
+            "name": "Blood Group"
           },
           "displayOrder": 1
         },
@@ -107,8 +105,8 @@
           ],
           "type": "MultiSelect",
           "concept": {
-            "name": "Medical History",
-            "uuid": "2991127b-7064-4027-a030-4a3a8d0e8aa7"
+            "uuid": "2991127b-7064-4027-a030-4a3a8d0e8aa7",
+            "name": "Medical History"
           },
           "displayOrder": 2
         }
@@ -126,8 +124,8 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "Addiction Details",
-            "uuid": "2ebca9be-3be3-4d11-ada0-187563ff04f8"
+            "uuid": "2ebca9be-3be3-4d11-ada0-187563ff04f8",
+            "name": "Addiction Details"
           },
           "displayOrder": 1,
           "mandatory": true
