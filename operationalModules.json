@@ -1,7 +1,6 @@
 {
   "organisationName": "Ashwini",
   "encounterTypes": [
-    "Outpatient",
     "ANC",
     "PNC",
     "Delivery",
