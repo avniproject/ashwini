@@ -18,7 +18,7 @@ port:= $(if $(port),$(port),8021)
 server:= $(if $(server),$(server),http://localhost)
 
 org_name:=Ashwini
-su:=postgres
+su:=$(shell id -un)
 
 _curl = \
 	curl -X $(1) $(server):$(port)/$(2) -d $(3)  \
