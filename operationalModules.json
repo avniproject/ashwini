@@ -6,7 +6,8 @@
     "Delivery",
     "Abortion",
     "Birth",
-    "Child Default"
+    "Child PNC",
+    "Anthropometry Assessment"
   ],
   "programs": [
     "Mother",
