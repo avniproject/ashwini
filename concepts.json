@@ -224,5 +224,15 @@
     "name": "Father/Husband",
     "uuid": "4edb709d-a0ad-44fd-9132-2884054cd114",
     "dataType": "Text"
+  },
+  {
+    "name": "Any physical disabilities/deformities?",
+    "uuid": "48393747-976b-4c91-907b-c4444a9d2f27",
+    "dataType": "Text"
+  },
+  {
+    "name": "Any mental illnesses?",
+    "uuid": "28bf5aa0-6dd6-4dc1-beb5-1de504f85b4b",
+    "dataType": "Text"
   }
 ]
