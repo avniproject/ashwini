@@ -5,15 +5,19 @@
       "uuid": "187479ba-7c41-4cd4-beac-9d0cf7735852",
       "formElements": [
         {
-          "uuid": "ee2966d4-035c-4282-9314-a4453f260f28",
+          "comment": "Place of birth",
+          "uuid": "5a6fe3f7-aab2-45c1-8d54-38ddc47d8b89"
+        },
+        {
+          "uuid": "4f3017e8-baf9-4b41-b1fb-02bac76b7bfa",
           "comment": "Did the baby cry soon after birth?"
         },
         {
-          "uuid": "c11bc3cd-7b58-49ba-b085-040378958a57",
+          "uuid": "245a4a27-b39f-4859-8d7d-cd6995c4203f",
           "comment": "Did breast feeding start within 1 hour of birth?"
         },
         {
-          "uuid": "8977ed9d-ef91-4c97-8cc1-2515c827eff1",
+          "uuid": "ee2966d4-035c-4282-9314-a4453f260f28",
           "comment": "When did breast feeding start?"
         }
       ]
@@ -22,16 +26,24 @@
       "uuid": "330730f4-71c8-4e31-aa30-5cbf4d07d1e2",
       "formElements": [
         {
-          "uuid": "6985bbf7-0f97-40a8-8c06-875e31631bc6",
-          "comment": "Colour of child"
+          "comment": "Birth defects",
+          "uuid": "6985bbf7-0f97-40a8-8c06-875e31631bc6"
         },
         {
           "uuid": "c29973e2-baea-429d-9f4c-42f33fa8edd4",
-          "comment": "Reflex"
+          "comment": "Colour of child"
         },
         {
           "uuid": "4039039a-c395-4fd1-b7b2-379910df2494",
+          "comment": "Reflex"
+        },
+        {
+          "uuid": "e7aedf63-6418-4a8f-8d99-a5d93ca41f89",
           "comment": "Muscle tone"
+        },
+        {
+          "name": "Icterus present within 24 hrs of birth?",
+          "uuid": "e25411c8-8813-4c9b-ab21-eb55200612af"
         }
       ]
     },
