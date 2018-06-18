@@ -218,7 +218,7 @@
   {
     "name": "Sangam Number",
     "uuid": "c9e64f06-23ac-47dc-b7e4-c93b819f52ce",
-    "dataType": "Numeric"
+    "dataType": "Text"
   },
   {
     "name": "Father/Husband",
