@@ -234,5 +234,52 @@
     "name": "Any mental illnesses?",
     "uuid": "28bf5aa0-6dd6-4dc1-beb5-1de504f85b4b",
     "dataType": "Text"
+  },
+  {
+    "name": "Doctor",
+    "uuid": "062071e7-85a9-4da0-9d59-c27b00e53a60",
+    "dataType": "NA"
+  },
+  {
+    "name": "Nurse",
+    "uuid": "f2060c53-4cb4-4b35-9bb6-6f717a8a3f56",
+    "dataType": "NA"
+  },
+  {
+    "name": "Skilled aya",
+    "uuid": "563fed85-e5ab-425e-aa66-2c9c3b45306f",
+    "dataType": "NA"
+  },
+  {
+    "name": "Non skilled aya",
+    "uuid": "e756c7ce-1678-48e5-b63d-0c0a4ee230af",
+    "dataType": "NA"
+  },
+  {
+    "name": "Delivered By",
+    "uuid": "58b6367a-825f-43e2-b6b7-b35a5cbc3a09",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Doctor",
+        "uuid": "062071e7-85a9-4da0-9d59-c27b00e53a60"
+      },
+      {
+        "name": "Nurse",
+        "uuid": "f2060c53-4cb4-4b35-9bb6-6f717a8a3f56"
+      },
+      {
+        "name": "Relative",
+        "uuid": "5dcdbebc-913e-46a5-a254-dd38d2956c80"
+      },
+      {
+        "name": "Skilled aya",
+        "uuid": "563fed85-e5ab-425e-aa66-2c9c3b45306f"
+      },
+      {
+        "name": "Non skilled aya",
+        "uuid": "e756c7ce-1678-48e5-b63d-0c0a4ee230af"
+      }
+    ]
   }
 ]

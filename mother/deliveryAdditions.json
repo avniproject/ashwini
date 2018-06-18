@@ -33,6 +33,9 @@
             {
               "key": "ExcludedAnswers",
               "value": [
+                "Non-Skilled Birth Attendant (NSBA)",
+                "Medical Officer/ Doctor",
+                "TBA (Trained Birth Attendant)",
                 "Auxillary Nurse Midwife"
               ]
             }
