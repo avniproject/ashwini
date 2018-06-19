@@ -256,7 +256,7 @@
     "dataType": "NA"
   },
   {
-    "name": "Delivered By",
+    "comment": "Delivered by",
     "uuid": "58b6367a-825f-43e2-b6b7-b35a5cbc3a09",
     "dataType": "Coded",
     "answers": [
