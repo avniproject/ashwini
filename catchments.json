@@ -694,12 +694,6 @@
         "type": "Village"
       },
       {
-        "uuid": "39571643-62af-40ea-b996-db67d7f6769f",
-        "level": 1,
-        "name": "PIDARI",
-        "type": "Village"
-      },
-      {
         "uuid": "b915ec77-fd25-4b93-968b-99e00ae62e5a",
         "level": 1,
         "name": "MANALKOLLI-BK",
@@ -997,12 +991,6 @@
         "uuid": "b7421181-55f2-41b5-807d-6f8b43978595",
         "level": 1,
         "name": "KONNAT-MK",
-        "type": "Village"
-      },
-      {
-        "uuid": "2d2d1d80-2719-4341-9529-c3fbb08e8b9d",
-        "level": 1,
-        "name": "PUTHANVEEDU",
         "type": "Village"
       },
       {
