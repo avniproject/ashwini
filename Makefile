@@ -34,7 +34,6 @@ create_org:
 
 # <refdata>
 deploy_refdata: ## Creates reference data by POSTing it to the server
-
 	$(call _curl,POST,catchments,@catchments.json)
 	$(call _curl,POST,concepts,@concepts.json)
 	$(call _curl,POST,forms,@registrationForm.json)
@@ -47,8 +46,7 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 	$(call _curl,PATCH,forms,@mother/enrolmentAdditions.json)
 	$(call _curl,POST,operationalModules,@operationalModules.json)
 
-# </refdata>
-
-deploy: deploy_refdata ##
+deploy: create_org deploy_refdata
 
 create_deploy: create_org deploy ##
+# </refdata>
