@@ -1,0 +1,61 @@
+{
+  "organisationName": "Ashwini",
+  "operationalEncounterTypes": [
+    {
+      "uuid": "5ee64ffb-e5c0-454b-a91b-6d4402654b39",
+      "name": "ANC",
+      "encounterType": {
+        "uuid": "b1efaffa-c8df-4801-8bbb-bf7c7bd6a0bd",
+        "comment": "ANC"
+      }
+    },
+    {
+      "uuid": "1abf4c76-120c-4032-b213-39be6c0f4a65",
+      "name": "PNC",
+      "encounterType": {
+        "uuid": "e9971396-b74f-411c-956d-da44073922f5",
+        "comment": "PNC"
+      }
+    },
+    {
+      "uuid": "e4965547-a8a8-4e73-b61d-248a1fbdf395",
+      "name": "Delivery",
+      "encounterType": {
+        "uuid": "7b6a93c7-e1e1-4e73-842d-df8a1935bde2",
+        "comment": "Delivery"
+      }
+    },
+    {
+      "uuid": "1d77c485-ae4b-4a2f-91d0-a7db5223b8fd",
+      "name": "Abortion",
+      "encounterType": {
+        "uuid": "1dec6355-4abd-45b7-89ab-bae1f5f9cc07",
+        "comment": "Abortion"
+      }
+    },
+    {
+      "uuid": "bc66e632-8834-4bbd-a303-ca0af2ea157f",
+      "name": "Birth",
+      "encounterType": {
+        "uuid": "1f07ae8c-faa4-4934-8e06-9038e62fc2ac",
+        "comment": "Birth"
+      }
+    },
+    {
+      "uuid": "e2a05f40-446e-43dd-9183-2967c038034e",
+      "name": "Child PNC",
+      "encounterType": {
+        "uuid": "330d954c-ab5f-4ea1-be8b-ba26a12bdfbc",
+        "comment": "Child PNC"
+      }
+    },
+    {
+      "uuid": "d5538b56-43d8-4cb7-bf76-8b783b1ce6a3",
+      "name": "Anthropometry Assessment",
+      "encounterType": {
+        "uuid": "02c72b2b-19f0-4f75-b734-dcad5601881b",
+        "comment": "Anthropometry Assessment"
+      }
+    }
+  ]
+}

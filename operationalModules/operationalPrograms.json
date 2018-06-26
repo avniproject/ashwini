@@ -1,0 +1,21 @@
+{
+  "organisationName": "Ashwini",
+  "operationalPrograms": [
+    {
+      "uuid": "a2e1451c-22f0-485d-a39f-4aae7888b34d",
+      "name": "Mother",
+      "program": {
+        "uuid": "076ddb2d-a499-4314-af95-4178553d279b",
+        "comment": "Mother"
+      }
+    },
+    {
+      "uuid": "8d245822-9135-44b8-8074-b3545aae12c9",
+      "name": "Child",
+      "program": {
+        "uuid": "352d906c-b386-496c-ba23-91b1468a5613",
+        "comment": "Child"
+      }
+    }
+  ]
+}
