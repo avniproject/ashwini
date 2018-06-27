@@ -36,10 +36,6 @@
     "uuid": "dd452345-5540-4356-8e17-0f44a29ba001"
   },
   {
-    "name": "Government Hospital",
-    "uuid": "df6303d5-0b78-48e0-8a3c-1a7fec61a9f1"
-  },
-  {
     "name": "Place of delivery",
     "comment": "Modified concept from health_modules/mother/motherDeliveryForm.json",
     "uuid": "a0405799-1e3c-40ef-90ba-84c9c0931660",
@@ -234,16 +230,6 @@
     "name": "Any mental illnesses?",
     "uuid": "28bf5aa0-6dd6-4dc1-beb5-1de504f85b4b",
     "dataType": "Text"
-  },
-  {
-    "name": "Doctor",
-    "uuid": "062071e7-85a9-4da0-9d59-c27b00e53a60",
-    "dataType": "NA"
-  },
-  {
-    "name": "Nurse",
-    "uuid": "f2060c53-4cb4-4b35-9bb6-6f717a8a3f56",
-    "dataType": "NA"
   },
   {
     "name": "Skilled aya",
