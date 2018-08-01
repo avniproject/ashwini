@@ -46,8 +46,20 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 	$(call _curl,PATCH,forms,@mother/enrolmentAdditions.json)
 	$(call _curl,POST,operationalEncounterTypes,@operationalModules/operationalEncounterTypes.json)
 	$(call _curl,POST,operationalPrograms,@operationalModules/operationalPrograms.json)
-
-deploy: create_org deploy_refdata
-
-create_deploy: create_org deploy ##
 # </refdata>
+
+# <deploy>
+deploy: deploy_refdata deploy_rules##
+# </deploy>
+
+# <deploy>
+deploy_rules: ##
+	node index.js "$(server_url)" "$(token)"
+# </deploy>
+
+# <c_d>
+create_deploy: create_org deploy ##
+# </c_d>
+
+deps:
+	npm i
