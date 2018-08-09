@@ -6,7 +6,7 @@
       "uuid": "2dff8c09-bed3-4848-943f-b2240b70d7ed",
       "formElements": [
         {
-          "name": "Birth registered",
+          "name": "ANC registered",
           "uuid": "591b5ed9-d00e-48c1-8b6b-54d4520a5921",
           "keyValues": [],
           "type": "SingleSelect",
