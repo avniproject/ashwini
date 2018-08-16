@@ -32,6 +32,11 @@ endef
 create_org:
 	psql -h localhost -U $(su) openchs < create_organisation.sql
 
+
+deploy_checklists:
+	$(call _curl,POST,forms,@child/checklistForm.json)
+	$(call _curl,POST,checklistDetail,@child/checklist.json)
+
 # <refdata>
 deploy_refdata: ## Creates reference data by POSTing it to the server
 	$(call _curl,POST,catchments,@catchments.json)
@@ -49,7 +54,7 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 # </refdata>
 
 # <deploy>
-deploy: deploy_refdata deploy_rules##
+deploy: deploy_refdata deploy_checklists deploy_rules##
 # </deploy>
 
 # <deploy>

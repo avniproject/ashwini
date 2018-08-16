@@ -42,36 +42,8 @@
     "dataType": "Coded",
     "answers": [
       {
-        "comment": "Home",
-        "uuid": "bb75a86c-05af-4b05-b699-860737d19e57"
-      },
-      {
-        "comment": "Sub Center",
-        "uuid": "fe24e909-6346-4e84-bacc-2ec5ae85bed8"
-      },
-      {
-        "comment": "Primary Health Center",
-        "uuid": "b4007f93-f288-49aa-b2ad-96f1a0f75a43"
-      },
-      {
-        "comment": "Regional Hospital",
-        "uuid": "0ad759eb-5fb9-4152-b39c-0c80e1c4ecda"
-      },
-      {
-        "comment": "NGO Hospital",
-        "uuid": "cdb94629-a710-43f0-b5ce-3921905f24f2"
-      },
-      {
-        "comment": "During Transportation like in Ambulance etc",
-        "uuid": "3b26f408-cbc6-4afc-a5bd-1d4e22ce77a7"
-      },
-      {
         "name": "Gudalur Adivasi Hospital",
         "uuid": "dd452345-5540-4356-8e17-0f44a29ba001"
-      },
-      {
-        "name": "Government Hospital",
-        "uuid": "df6303d5-0b78-48e0-8a3c-1a7fec61a9f1"
       }
     ]
   },
@@ -80,21 +52,6 @@
     "uuid": "36b7b1a8-d191-4bbe-ad3c-0e25a48334e0",
     "dataType": "Coded",
     "answers": [
-      {
-        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c"
-      },
-      {
-        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
-        "abnormal": true
-      },
-      {
-        "uuid": "63c6e46e-77ea-44d7-bb46-ae4f16acb399",
-        "abnormal": true
-      },
-      {
-        "uuid": "231982cb-bacc-4d8b-8ee7-be47bdd4d47e",
-        "abnormal": true
-      },
       {
         "comment": "Intrauterine death",
         "uuid": "16d08bef-fa20-40d3-8813-1cd10268bbb1",
@@ -247,24 +204,28 @@
     "dataType": "Coded",
     "answers": [
       {
-        "name": "Doctor",
-        "uuid": "062071e7-85a9-4da0-9d59-c27b00e53a60"
-      },
-      {
-        "name": "Nurse",
-        "uuid": "f2060c53-4cb4-4b35-9bb6-6f717a8a3f56"
-      },
-      {
-        "name": "Relative",
-        "uuid": "5dcdbebc-913e-46a5-a254-dd38d2956c80"
-      },
-      {
         "name": "Skilled aya",
         "uuid": "563fed85-e5ab-425e-aa66-2c9c3b45306f"
       },
       {
         "name": "Non skilled aya",
         "uuid": "e756c7ce-1678-48e5-b63d-0c0a4ee230af"
+      }
+    ]
+  },
+  {
+    "name": "Ashwini",
+    "uuid": "48fbfbf0-3b99-4f68-b01c-404c013487d2",
+    "dataType": "NA"
+  },
+  {
+    "comment": "Administered by",
+    "uuid": "4c98684a-47ef-4e1e-9dc9-2e603f7b6361",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "48fbfbf0-3b99-4f68-b01c-404c013487d2",
+        "comment": "Ashwini"
       }
     ]
   }
