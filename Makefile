@@ -39,6 +39,7 @@ deploy_checklists:
 
 # <refdata>
 deploy_refdata: ## Creates reference data by POSTing it to the server
+	$(call _curl,POST,locations,@locations.json)
 	$(call _curl,POST,catchments,@catchments.json)
 	$(call _curl,POST,concepts,@concepts.json)
 	$(call _curl,POST,forms,@registrationForm.json)
