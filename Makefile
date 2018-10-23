@@ -16,7 +16,7 @@ help:
 
 port:= $(if $(port),$(port),8021)
 server:= $(if $(server),$(server),http://localhost)
-
+server_url:=$(server):$(port)
 org_name:=Ashwini
 su:=$(shell id -un)
 
@@ -55,12 +55,22 @@ deploy_refdata: ## Creates reference data by POSTing it to the server
 # </refdata>
 
 # <deploy>
+auth:
+	$(if $(poolId),$(eval token:=$(shell node scripts/token.js $(poolId) $(clientId) $(username) $(password))))
+	echo $(token)
+
+auth_live:
+	make auth poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin password=$(OPENCHS_PROD_ADMIN_USER_PASSWORD)
+
 deploy: deploy_refdata deploy_checklists deploy_rules##
 # </deploy>
 
 # <deploy>
 deploy_rules: ##
 	node index.js "$(server_url)" "$(token)"
+
+deploy_rules_live:
+	make auth deploy_rules poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin password=$(OPENCHS_PROD_ADMIN_USER_PASSWORD) server=https://server.openchs.org port=443
 # </deploy>
 
 # <c_d>
