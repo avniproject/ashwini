@@ -1,0 +1,13 @@
+[
+  {
+    "uuid": "e55a91e5-cffe-41cc-8d7a-41ef3228a8c1",
+    "name": "ashwini-dev",
+    "password": "password",
+    "email": "openchssupport+ashwini+dev@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "336ee5bf-2dff-49d2-9663-18e341d9ec1c",
+    "operatingIndividualScope": "None",
+    "admin": false,
+    "orgAdmin": true
+  }
+]

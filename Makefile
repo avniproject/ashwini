@@ -18,19 +18,48 @@ port:= $(if $(port),$(port),8021)
 server:= $(if $(server),$(server),http://localhost)
 server_url:=$(server):$(port)
 org_name:=Ashwini
+org_admin_name=ashwini-admin
 su:=$(shell id -un)
 
 define _curl
-	curl -X $(1) $(server):$(port)/$(2) -d $(3)  \
+	curl -X $(1) $(server_url)/$(2) -d $(3)  \
 		-H "Content-Type: application/json"  \
-		-H "ORGANISATION-NAME: $(org_name)"  \
-		-H "AUTH-TOKEN: $(token)"
+		-H "USER-NAME: $(org_admin_name)"  \
+		$(if $(token),-H "AUTH-TOKEN: $(token)",)
+	@echo
+	@echo
+endef
+
+define _curl_for_form_query_export
+	curl -X GET $(server_url)/query/program/$(1)/encounter/$(2)  \
+		-H "Content-Type: application/json"  \
+		-H "USER-NAME: $(org_admin_name)"  \
+		$(if $(token),-H "AUTH-TOKEN: $(token)",)
+	@echo
+	@echo
+endef
+
+define _curl_as_openchs
+	curl -X $(1) $(server_url)/$(2) -d $(3)  \
+		-H "Content-Type: application/json"  \
+		-H "USER-NAME: admin"  \
+		$(if $(token),-H "AUTH-TOKEN: $(token)",)
 	@echo
 	@echo
 endef
 
 create_org:
 	psql -h localhost -U $(su) openchs < create_organisation.sql
+
+deploy_admin_user:
+	$(call _curl_as_openchs,POST,users,@users/admin-user.json)
+
+deploy_test_users:
+	$(call _curl,POST,users,@users/dev-user.json)
+
+get_forms:
+	$(call _curl_for_form_query_export,$(program),$(encounter-type))
+
 
 
 deploy_checklists:
@@ -62,7 +91,7 @@ auth:
 auth_live:
 	make auth poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin password=$(OPENCHS_PROD_ADMIN_USER_PASSWORD)
 
-deploy: deploy_refdata deploy_checklists deploy_rules##
+deploy: deploy_admin_user deploy_refdata deploy_checklists deploy_rules deploy_test_users##
 # </deploy>
 
 # <deploy>
