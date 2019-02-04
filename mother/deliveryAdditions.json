@@ -53,7 +53,7 @@
       "uuid": "fa392acd-d9bf-4b90-b520-bc28d61300b8",
       "formElements": [
         {
-          "name": "Pregnancy outcome",
+          "name": "Delivery outcome",
           "uuid": "2709c15d-0f45-426f-aaa4-f0204315758b",
           "keyValues": [],
           "type": "SingleSelect",
