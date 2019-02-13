@@ -66,8 +66,11 @@ deploy_checklists:
 	$(call _curl,POST,forms,@child/checklistForm.json)
 	$(call _curl,POST,checklistDetail,@child/checklist.json)
 
+deploy_subjects:
+	$(call _curl,POST,operationalSubjectTypes,@operationalModules/operationalSubjectTypes.json)
+
 # <refdata>
-deploy_refdata: ## Creates reference data by POSTing it to the server
+deploy_refdata: deploy_subjects ## Creates reference data by POSTing it to the server
 	$(call _curl,POST,locations,@locations.json)
 	$(call _curl,POST,catchments,@catchments.json)
 	$(call _curl,POST,concepts,@concepts.json)
