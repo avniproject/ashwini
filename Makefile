@@ -95,6 +95,11 @@ auth_live:
 	make auth poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin password=$(OPENCHS_PROD_ADMIN_USER_PASSWORD)
 
 deploy: deploy_admin_user deploy_refdata deploy_checklists deploy_rules deploy_test_users##
+
+deploy_wo_users: deploy_refdata deploy_checklists deploy_rules
+
+deploy_staging:
+	make auth deploy_wo_users server=https://staging.openchs.org port=443 poolId=$(OPENCHS_STAGING_USER_POOL_ID) clientId=$(OPENCHS_STAGING_APP_CLIENT_ID) username=ashwini-admin password=password
 # </deploy>
 
 # <deploy>

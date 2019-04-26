@@ -6,7 +6,8 @@
     "email": "openchssupport+ashwini+dev@samanvayfoundation.org",
     "phoneNumber": "+919999999999",
     "organisationUUID": "336ee5bf-2dff-49d2-9663-18e341d9ec1c",
-    "operatingIndividualScope": "None",
+    "catchmentUUID": "693eebd3-8123-48a1-956f-80d88905bd18",
+    "operatingIndividualScope": "ByCatchment",
     "admin": false,
     "orgAdmin": false
   }
