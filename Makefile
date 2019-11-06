@@ -18,7 +18,7 @@ port:= $(if $(port),$(port),8021)
 server:= $(if $(server),$(server),http://localhost)
 server_url:=$(server):$(port)
 org_name:=Ashwini
-org_admin_name=ashwini-admin
+org_admin_name=admin-ashwini
 su:=$(shell id -un)
 
 define _curl
@@ -92,7 +92,7 @@ auth:
 	echo $(token)
 
 auth_live:
-	make auth poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin password=$(OPENCHS_PROD_ADMIN_USER_PASSWORD)
+	make auth poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=admin-ashwini password=password
 
 deploy: deploy_admin_user deploy_refdata deploy_checklists deploy_rules deploy_test_users##
 
@@ -113,6 +113,17 @@ deploy_rules_live:
 # <c_d>
 create_deploy: create_org deploy ##
 # </c_d>
+deploy_orgconfig:
+	echo
+	$(call _curl,POST,organisationConfig,@organisationConfig.json)
+
+deploy_translations:
+	echo
+	$(call _curl,POST,translation,@translations/en.json)
+
+deploy_translations_live:
+	echo
+	make auth deploy_orgconfig deploy_translations server=https://server.openchs.org port=443 poolId=$(OPENCHS_PROD_USER_POOL_ID) clientId=$(OPENCHS_PROD_APP_CLIENT_ID) username=$(org_admin_name) password=$(password)
 
 deps:
 	npm i
